@@ -2,6 +2,7 @@
 name=enjoy24
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/
 enabled=1
+metadata_expire=1d
 skip_if_unavailable=1
 gpgcheck=0
 
@@ -9,5 +10,6 @@ gpgcheck=0
 name=enjoy24 - Source
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/srpm/
 enabled=0
+metadata_expire=1d
 skip_if_unavailable=1
 gpgcheck=0

@@ -5,7 +5,7 @@
 
   Mirror:\r\n```# dnf config-manager --add-repo=https://gitlab.com/FedoraUnited/repository/raw/master/fedora-enjoy24.repo\r\n
 
-  \r\nNow you can install packages:\r\n\```# dnf update\r\n# dnf install vlc mpv ffmpeg gnome-mpv```\r\n\
+  \r\nNow you can install packages:\r\n```# dnf update\r\n# dnf install vlc mpv ffmpeg gnome-mpv```\r\n\
 
   \r\n\r\n### List of most popular software in our repository\r\n* Vlc\r\n* Mpv\r\n* GNOME-mpv\r\n* Chromium (all multimedia HTML5 content, flash player)\r\n* Kdenlive\r\n* VirtualBox\r\n* OBS-studio\r\n*\r\n GNOME Internet Radio Locator program* Smplayer\r\n* Fobnix\r\n* Idjc\r\n* Cmus\r\n* Minidlna\r\n* mplayer*\r\n Gstreamer codecs\r\n
 

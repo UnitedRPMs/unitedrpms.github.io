@@ -1,3 +1,3 @@
 # FedoraUnited.github.io
 
-# [Website](https://unitedrpms.github.io/)
+# [Website](https://fedoraunited.github.io/)

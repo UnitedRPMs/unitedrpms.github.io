@@ -1,12 +1,12 @@
 [enjoy24]
-name=enjoy24
+name=unitedrpms
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/
 enabled=1
 metadata_expire=1d
 skip_if_unavailable=1
 gpgcheck=0
 
-[enjoy24-source]
+[unitedrpms-source]
 name=enjoy24 - Source
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/srpm/
 enabled=0

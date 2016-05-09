@@ -7,8 +7,16 @@ skip_if_unavailable=1
 gpgcheck=0
 
 [unitedrpms-source]
-name=enjoy24 - Source
+name=unitedrpms - Source
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/srpm/
+enabled=0
+metadata_expire=1d
+skip_if_unavailable=1
+gpgcheck=0
+
+[unitedrpms-debuginfo]
+name=unitedrpms - Debug
+baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/debug/
 enabled=0
 metadata_expire=1d
 skip_if_unavailable=1

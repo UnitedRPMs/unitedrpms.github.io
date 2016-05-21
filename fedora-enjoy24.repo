@@ -19,7 +19,7 @@ gpgcheck=0
 [unitedrpms-debuginfo]
 name=unitedrpms - Debug
 baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/debug/
-mirrorlist=https://gitlab.com/FedoraUnited/repository/raw/master/$basearch/debug
+mirrorlist=https://gitlab.com/FedoraUnited/repository/raw/master/$basearch/debug/
 enabled=0
 metadata_expire=1d
 skip_if_unavailable=1

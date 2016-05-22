@@ -1,26 +1,20 @@
 [unitedrpms]
 name=unitedrpms
-baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/
-#mirrorlist=https://gitlab.com/FedoraUnited/repository/raw/master/$basearch/
+mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_x86_64.txt
 enabled=1
-metadata_expire=1d
 skip_if_unavailable=1
-gpgcheck=0
+gpgcheck=1
 
 [unitedrpms-source]
 name=unitedrpms - Source
-baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/srpm/
-#mirrorlist=https://gitlab.com/FedoraUnited/repository/raw/master/srpm/
+mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_source.txt
 enabled=0
-metadata_expire=1d
 skip_if_unavailable=1
-gpgcheck=0
+gpgcheck=1
 
 [unitedrpms-debuginfo]
-name=unitedrpms - Debug
-baseurl=https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/$basearch/debug/
-#mirrorlist=https://gitlab.com/FedoraUnited/repository/raw/master/$basearch/debug/
+name=unitedrpms - Debuginfo
+baseurl=https://unitedrpms.github.io/mirrorlist_enjoy24_debug.txt
 enabled=0
-metadata_expire=1d
 skip_if_unavailable=1
-gpgcheck=0
+gpgcheck=1

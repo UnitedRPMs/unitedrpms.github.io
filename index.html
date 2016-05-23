@@ -62,6 +62,12 @@
 <pre><code># dnf config-manager --add-repo=https://unitedrpms.github.io/unitedrpms.repo
 </code></pre>
 
+<p><strong>Important:</strong> Import and verify the GPG key:</p>
+
+<pre><code>$ wget -c https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
+$ gpg2 --import URPMS-GPG-PUBLICKEY-Fedora-24 
+</code></pre>
+
 <p>Now you can install packages:</p>
 
 <pre><code># dnf update
@@ -78,6 +84,8 @@
 <li><code>Vlc</code></li>
 <li><code>Mpv</code></li>
 <li><code>GNOME-mpv</code></li>
+<li><code>kodi</code></li>
+<li><code>openshot</code></li>
 <li><code>Chromium (all multimedia HTML5 content, flash player)</code></li>
 <li><code>Kdenlive</code></li>
 <li><code>Handbrake</code></li>
@@ -92,6 +100,15 @@
 <li><code>mplayer</code></li>
 <li><code>Gstreamer codecs</code></li>
 <li><code>freetype-freeworld (with subpixel rendering)</code></li>
+<li><code>N1 (the extensible, open source mail app)</code></li>
+</ul>
+
+<p><strong>For developers</strong></p>
+
+<ul>
+<li><code>atom (hackable text editor for the 21st Century)</code></li>
+<li><code>lighttable (the next generation code editor)</code></li>
+<li><code>brackets (modern, open source text editor that understands web design)</code></li>
 </ul>
 
 <h3>

@@ -3,18 +3,21 @@ name=unitedrpms
 mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_x86_64.txt
 enabled=1
 skip_if_unavailable=1
-gpgcheck=0
+gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1
 
 [unitedrpms-source]
 name=unitedrpms - Source
 mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_source.txt
 enabled=0
 skip_if_unavailable=1
-gpgcheck=0
+gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1
 
 [unitedrpms-debuginfo]
 name=unitedrpms - Debuginfo
 baseurl=https://unitedrpms.github.io/mirrorlist_enjoy24_debug.txt
 enabled=0
 skip_if_unavailable=1
-gpgcheck=0
+gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1

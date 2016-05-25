@@ -18,7 +18,7 @@ gpgcheck=1
 
 [unitedrpms-debuginfo]
 name=unitedrpms - Debuginfo
-baseurl=https://unitedrpms.github.io/mirrorlist_enjoy24_debug.txt
+mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_debug.txt
 enabled=0
 metadata_expire=1d
 skip_if_unavailable=1

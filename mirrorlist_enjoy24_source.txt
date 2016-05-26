@@ -1,2 +1,4 @@
 https://gitlab.com/FedoraUnited/repository/raw/master/srpm/
 https://googledrive.com/host/0ByOofIMiUfxPSG00M3hVRHVmYUE/srpm/
+https://sourceforge.net/projects/unitedrpms/files/repository/srpm/
+

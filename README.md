@@ -1,8 +1,4 @@
-# FedoraUnited.github.io
-
-# [Website](https://unitedrpms.github.io/)
-
-### How to enable UnitedRPMs repository in your system
+# How to enable UnitedRPMs repository in your system
 
 Run this code in your console from superuser:
 
@@ -27,3 +23,9 @@ How to install all GStreamer codecs:
 ```
 # dnf install gstreamer{1,}-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0
 ```
+
+-----
+
+# FedoraUnited.github.io
+
+# [Website](https://unitedrpms.github.io/)

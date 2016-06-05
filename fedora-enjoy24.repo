@@ -1,26 +1,26 @@
 [unitedrpms]
 name=unitedrpms
-mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_x86_64.txt
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_enjoy24_x86_64.txt
 enabled=1
 metadata_expire=1d
 skip_if_unavailable=1
-gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1
 
 [unitedrpms-source]
 name=unitedrpms - Source
-mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_source.txt
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_enjoy24_source.txt
 enabled=0
 metadata_expire=1d
 skip_if_unavailable=1
-gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1
 
 [unitedrpms-debuginfo]
 name=unitedrpms - Debuginfo
-mirrorlist=https://unitedrpms.github.io/mirrorlist_enjoy24_debug.txt
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_enjoy24_debug.txt
 enabled=0
 metadata_expire=1d
 skip_if_unavailable=1
-gpgkey=https://unitedrpms.github.io/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1

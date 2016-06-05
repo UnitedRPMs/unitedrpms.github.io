@@ -6,6 +6,7 @@ metadata_expire=1d
 skip_if_unavailable=1
 gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1
+repo_gpgcheck=1
 
 [unitedrpms-source]
 name=unitedrpms - Source
@@ -15,6 +16,7 @@ metadata_expire=1d
 skip_if_unavailable=1
 gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1
+repo_gpgcheck=1
 
 [unitedrpms-debuginfo]
 name=unitedrpms - Debuginfo
@@ -24,3 +26,4 @@ metadata_expire=1d
 skip_if_unavailable=1
 gpgkey=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 gpgcheck=1
+repo_gpgcheck=1

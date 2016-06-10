@@ -1,2 +1,2 @@
-https://gitlab.com/FedoraUnited/repository/raw/master/x86_64/
 https://sourceforge.net/projects/unitedrpms/files/repository/x86_64/
+https://gitlab.com/FedoraUnited/repository/raw/master/x86_64/

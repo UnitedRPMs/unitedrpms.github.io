@@ -9,11 +9,19 @@ For users of gpk (gnome package kit) or kpackagekit in Fedora that is easy and b
 [UnitedRPMs for Fedora 24/25](https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-1.noarch.rpm)
 
 
+
 ## 2. Command Line Setup using rpm
 
 ```
 su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-1.noarch.rpm'
 ```
+
+#### How to check if your rpm is compromised?
+
+If you still have the rpm file (above), check its MD5 signature with the command “md5sum unitedrpms-24-1.noarch.rpm”.
+You can verify, the md5sum is the same to: *eadfdef22d495f15a02ea278fd833d6a*
+
+
 
 
 ## 3. Step by step (expert mode)

@@ -23,7 +23,9 @@ You can verify, the sha512 is the same to:
 ```
 3bfab42f1704f43e2304f8c057a2e6ed01bc8e5527964c0730dbe3401e2ee9a0703e4f87a3c34970b7d0da8993439a33e6abfc14f0d8a5c8cc3519229c718f42
 ```
+Guide how to use [sha512sum](http://docs.oracle.com/cd/E36784_01/html/E36870/sha512sum-1.html)
 
+checksum file which contains all the hash information [Here](https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/unitedrpms-CHECKSUM)
 
 
 ## 3. Step by step (expert mode, needs import the GPG key)

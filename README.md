@@ -1,20 +1,20 @@
 # How to enable UnitedRPMs repository in your system
 
+## Command Line Setup
 
-## 1. Graphical Setup via Firefox web browser
-
-For users of gpk (gnome package kit) or kpackagekit in Fedora that is easy and basically only one step: just click on one of the following files, then follow the default options that Firefox and Package Kit offer by clicking Enter a few times: 
-
-
-[UnitedRPMs for Fedora 24/25](https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-2.noarch.rpm)
-
-
-
-## 2. Command Line Setup using rpm
+**For Fedora 24:**
 
 ```
 su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-2.noarch.rpm'
 ```
+
+**For Fedora 25:**
+
+```
+su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-25-1.noarch.rpm'
+
+```
+
 
 #### How to check if your rpm is compromised?
 
@@ -28,15 +28,9 @@ Guide how to use [sha512sum](http://docs.oracle.com/cd/E36784_01/html/E36870/sha
 checksum file which contains all the hash information [Here](https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/unitedrpms-CHECKSUM)
 
 
-## 3. Step by step (expert mode, needs import the GPG key)
 
-Run this code in your console from superuser:
 
-```
-# dnf config-manager --add-repo=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/unitedrpms.repo
-```
-
-**Important: import and verify the GPG key:**
+**Import and verify the GPG key:**
 
 ```
 # rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
@@ -55,8 +49,6 @@ How to install all GStreamer codecs:
 ```
 
 -----
-
-# FedoraUnited.github.io
 
 # [Website](https://unitedrpms.github.io/)
 

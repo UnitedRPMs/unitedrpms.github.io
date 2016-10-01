@@ -58,7 +58,7 @@ Chromium and Opera with HTML5 Multimedia support:
 
 Gradio - superb playbox with the radiostations from around the world
 ```
-# dnf install gradion
+# dnf install gradio
 ```
 
 Need to work or relax with multimedia? No problemo

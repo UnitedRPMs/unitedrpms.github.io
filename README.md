@@ -14,17 +14,15 @@ su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/ma
 su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-25-1.noarch.rpm'
 
 ```
-
-
-#### How to check if your rpm is compromised?
-
-#### And import and verify the GPG key
+## How to import our gpg key
 
 Our GPG key is integrated in every `unitedrpms-*.noarch.rpm` package. You can also import it manually:
 
 ```
 # rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
 ```
+
+## How to check if your rpm is compromised?
 
 You can (*and must if feel doubts!*) check the GPG signature and hash sums of every package. Examples:
 

@@ -34,7 +34,7 @@ You can (*and must if feel doubts!*) check the GPG signature and hash sums of ev
 
  If all goes well, the following message is displayed: md5 gpg OK. This means that the signature of the package has been verified, and that it is [not corrupt](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-check-rpm-sig.html). 
 
-#### Useful packages
+## Useful packages
 
 Video playback:
 ```

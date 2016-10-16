@@ -14,6 +14,12 @@ su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/ma
 su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-25-1.noarch.rpm'
 
 ```
+**For Fedora 26 (not all packages available):**
+
+```
+su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-26-1.noarch.rpm'
+
+```
 ## How to import our gpg key
 
 Our GPG key is integrated in every `unitedrpms-*.noarch.rpm` package. You can also import it manually:

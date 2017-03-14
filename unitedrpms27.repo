@@ -1,0 +1,29 @@
+[unitedrpms]
+name=unitedrpms
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_F$releasever_x86_64.txt
+enabled=1
+metadata_expire=1d
+skip_if_unavailable=1
+gpgkey=file:///etc/pki/rpm-gpg/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1
+repo_gpgcheck=1
+
+[unitedrpms-source]
+name=unitedrpms - Source
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_F$releasever_source.txt
+enabled=0
+metadata_expire=1d
+skip_if_unavailable=1
+gpgkey=file:///etc/pki/rpm-gpg/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1
+repo_gpgcheck=1
+
+[unitedrpms-debuginfo]
+name=unitedrpms - Debuginfo
+mirrorlist=https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/mirrorlist_F$releasever_debug.txt
+enabled=0
+metadata_expire=1d
+skip_if_unavailable=1
+gpgkey=file:///etc/pki/rpm-gpg/URPMS-GPG-PUBLICKEY-Fedora-24
+gpgcheck=1
+repo_gpgcheck=1

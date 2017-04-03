@@ -1,2 +1,2 @@
 https://sourceforge.net/projects/unitedrpms/files/repository/srpm/
-#https://gitlab.com/FedoraUnited/repository/raw/master/srpm/
+https://gitlab.com/UnitedRPMs/24/raw/master/srpm/

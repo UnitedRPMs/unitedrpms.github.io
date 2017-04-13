@@ -63,7 +63,7 @@ Complete Gstreamer framework with all codecs:
 Chromium and Opera with HTML5 Multimedia support:
 
 ```
-# dnf install chromium opera 
+# dnf install chromium-freeworld opera 
 ```
 
 Gradio - superb playbox with the radiostations from around the world

@@ -2,28 +2,12 @@
 
 ## Command Line Setup
 
-**For Fedora 24:**
+**For Fedora 24-27:**
 
 ```
-su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-2.noarch.rpm'
-```
+1) su
 
-**For Fedora 25:**
-
-```
-su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-25-1.noarch.rpm'
-
-```
-**For Fedora 26:**
-
-```
-su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-26-1.noarch.rpm'
-
-```
-**For Fedora 27:**
-
-```
-su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-27-1.noarch.rpm'
+2) dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/3/unitedrpms-$(rpm -E %fedora)-3.fc$(rpm -E %fedora).noarch.rpm
 ```
 
 ## How to import our gpg key
@@ -31,7 +15,7 @@ su -c 'dnf -y install https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/ma
 Our GPG key is integrated in every `unitedrpms-*.noarch.rpm` package. You can also import it manually:
 
 ```
-# rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms.github.io/master/URPMS-GPG-PUBLICKEY-Fedora-24
+# rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/URPMS-GPG-PUBLICKEY-Fedora-24
 ```
 
 ## How to check if your rpm is compromised?
@@ -39,9 +23,7 @@ Our GPG key is integrated in every `unitedrpms-*.noarch.rpm` package. You can al
 You can (*and must if feel doubts!*) check the GPG signature and hash sums of every package. Examples:
 
 ```
-# rpm -K https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-24-2.noarch.rpm
-
-# rpm -K https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/RPM/unitedrpms-25-1.noarch.rpm
+# rpm -K https://github.com/UnitedRPMs/unitedrpms/releases/download/3/unitedrpms-$(rpm -E %fedora)-3.fc$(rpm -E %fedora).noarch.rpm
 ```
 
  If all goes well, the following message is displayed: md5 gpg OK. This means that the signature of the package has been verified, and that it is [not corrupt](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-check-rpm-sig.html). 
@@ -79,4 +61,6 @@ Need to work or relax with multimedia? No problemo
 -----
 
 # [Website](https://unitedrpms.github.io/)
+
+
 

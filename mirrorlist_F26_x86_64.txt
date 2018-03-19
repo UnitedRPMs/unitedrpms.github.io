@@ -1,2 +1,0 @@
-https://sourceforge.net/projects/unitedrpms/files/26/x86_64/
-https://gitlab.com/UnitedRPMs/26/raw/master/x86_64/

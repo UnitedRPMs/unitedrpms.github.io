@@ -1,2 +1,0 @@
-https://sourceforge.net/projects/unitedrpms/files/25/srpm/
-https://gitlab.com/UnitedRPMs/25/raw/master/srpm/

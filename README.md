@@ -2,7 +2,7 @@
 
 ## Command Line Setup
 
-**For Fedora 24-27:**
+**For Fedora 26-29:**
 
 ```
 1) su
